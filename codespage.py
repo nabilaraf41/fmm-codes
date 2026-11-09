@@ -5,7 +5,7 @@ from pathlib import Path
 STATE = Path(__file__).resolve().parent / "codes.json"
 REDEEM = "https://redeem.fcm.ea.com"
 LINKS = {  # menu sections; an empty url hides that button
-    "Instagram": [("My Instagram", "https://www.instagram.com/fc_fmm/"), ("Instagram Community Chat", "")],
+    "Instagram": [("My Instagram", "https://www.instagram.com/fc_fmm/"), ("Instagram Community Chat", "https://www.instagram.com/channel/AbbkN4AUe5QMeHYt/")],
     "Facebook": [("Facebook Page", "https://www.facebook.com/61577183936749"),
                  ("Facebook Group", "https://www.facebook.com/groups/5916184738491385/")],
 }
