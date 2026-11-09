@@ -29,8 +29,12 @@ if __name__ == "__main__":
     st = json.loads(STATE.read_text(encoding="utf-8"))
     now = dt.datetime.now(dt.timezone(dt.timedelta(hours=6)))
     act = active()
+    live = {c["code"] for c in act}
     for c in act:
-        st["seen"].setdefault(c["code"], {"first_seen": now.date().isoformat(), **c})
+        st["seen"].setdefault(c["code"], {"first_seen": now.date().isoformat(), **c}).pop("expired_on", None)
+    for code, c in st["seen"].items():  # first run it drops off the site's active list = its expiry date
+        if code not in live:
+            c.setdefault("expired_on", now.date().isoformat())
     STATE.write_text(json.dumps(st, indent=1, ensure_ascii=False), encoding="utf-8")
     codespage.STATE = STATE
     old = (HERE / "index.html").read_text(encoding="utf-8") if (HERE / "index.html").exists() else ""

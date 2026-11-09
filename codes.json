@@ -4,19 +4,22 @@
    "first_seen": "2026-10-30",
    "code": "HEATWAVE",
    "reward": "116–118 OVR MLS Player Item",
-   "date": "29th October"
+   "date": "29th October",
+   "expired_on": "2026-11-09"
   },
   "BALLONDOR70": {
    "first_seen": "2026-10-30",
    "code": "BALLONDOR70",
    "reward": "119-121 OVR Ballon D'or Player",
-   "date": "27th October"
+   "date": "27th October",
+   "expired_on": "2026-11-09"
   },
   "COSTUMEPARTY": {
    "first_seen": "2026-10-31",
    "code": "COSTUMEPARTY",
    "reward": "Festive Draft Voucher & 1k Gems",
-   "date": "31st October"
+   "date": "31st October",
+   "expired_on": "2026-11-09"
   },
   "UNDERTHELIGHTS": {
    "first_seen": "2026-11-08",
