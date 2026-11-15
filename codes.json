@@ -32,7 +32,8 @@
    "first_seen": "2026-11-12",
    "code": "AUTUMNCRUNCH",
    "reward": "Draft Voucher",
-   "date": "11th November"
+   "date": "11th November",
+   "expired_on": "2026-11-16"
   }
  }
 }
