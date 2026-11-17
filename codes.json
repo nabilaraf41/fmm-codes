@@ -34,6 +34,12 @@
    "reward": "Draft Voucher",
    "date": "11th November",
    "expired_on": "2026-11-16"
+  },
+  "CHOOSEYOURSIDE": {
+   "first_seen": "2026-11-18",
+   "code": "CHOOSEYOURSIDE",
+   "reward": "Draft voucher & 100 RUP",
+   "date": "17th November"
   }
  }
 }
