@@ -53,13 +53,20 @@
    "first_seen": "2026-11-24",
    "code": "COMINGHOME",
    "reward": "119–120 OVR England Player Pack",
-   "date": "24th November"
+   "date": "24th November",
+   "expired_on": "2026-11-27"
   },
   "FOOTBALLFEAST": {
    "first_seen": "2026-11-26",
    "code": "FOOTBALLFEAST",
    "reward": "1× Draft voucher & 100 RUPs",
    "date": "26th November"
+  },
+  "FRIDAYFRENZY": {
+   "first_seen": "2026-11-27",
+   "code": "FRIDAYFRENZY",
+   "reward": "118-120 OVR Rivals Pack",
+   "date": "27th November"
   }
  }
 }
